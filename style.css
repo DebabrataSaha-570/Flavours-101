@@ -3,6 +3,7 @@
     --text-color-2: #828282;
     --light-1: #898989; 
     --light-2: #F2F2F2; 
+    --dark: #161616;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -25,11 +26,18 @@ html{
     align-items: center;
    
 }
+.diet{
+    margin-left: 30px;
+}
 .diet-img{
     width: 80%;
 }
 .about-me-img{
-   width: 70%;
+   width: 60%;
+   margin-left: 6rem;
+}
+.about-me-btn{
+    margin-top: 2rem;
 }
 .half-width h1{
     font-size: 40px;
@@ -46,8 +54,8 @@ h1 span{
 .btn{
     padding: 1rem 2.5rem;
     border-radius: 20px;
-    /* border: 3px solid; */
-    border: none ;
+    border: 3px solid;
+    /* border: none ; */
     background-image: linear-gradient(rgb(17, 78, 170), rgb(80, 185, 255));
     cursor: pointer;
     color: white;
@@ -55,23 +63,18 @@ h1 span{
     font-weight: 700;
     font-size: 15px;
 }
-/* .btn:hover{
+.btn:hover{
     background-image: none;
-    border: 3px solid blue;
-    color: blue;
-} */
+    border: 3px solid rgb(17, 78, 170);
+    color: rgb(17, 78, 170);
+}
 .about-me{
     background-image: url(./images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    /* background-position-y:top; */
     background-size: cover;
 }
 .card img{
     width: 90%;
-    /* display: block;
-   text-align: center; */
-   /* padding: 15px; */
-   /* padding-right: 10px; */
    padding-left: 20px;
    padding-top: 15px;
    
@@ -91,6 +94,18 @@ h1 span{
 }
 .card-text{
     padding: 1rem;
+}
+.card a{
+    text-decoration: none;
+    /* font-weight: 600 ; */
+    font-size: 17px;
+    color: var(--text-color-2);
+}
+.card a:hover{
+    color: rgb(17, 78, 170);
+}
+.card p{
+    color: var(--text-color-2);
 }
 .heading{
     text-align: center;
@@ -198,4 +213,29 @@ form textarea{
 }
 .contact-card{
     text-align: center;
+}
+.socials a{
+    /* background-color: var(--dark); */
+
+    /* background-color: rgb(80, 185, 255); */
+    background-color: rgb(69, 121, 231);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    padding: 2px;
+    margin-top: 1.5rem;
+}
+.socials a:hover{
+    background-color: rgb(80, 185, 255);
+    transition: all .3s ease;
+}
+.socials a img{
+    /* width: 100%;
+    height: 100%;
+    padding: 2rem; */
+    /* padding: 2rem; */
 }
