@@ -1,6 +1,8 @@
 :root{
     --text-color : #575757; 
     --text-color-2: #828282;
+    --light-1: #898989; 
+    --light-2: #F2F2F2; 
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -157,4 +159,43 @@ nav .left a:hover{
 }
 .nav-heading{
     font-size: 20px ;
+}
+.input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+.input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+.form-button{
+    text-align: center;
+    margin: 2rem 0;
+}
+form input{
+    padding: 12px;
+    margin-bottom: 20px;
+}
+form textarea{
+    padding: 12px;
+}
+.contact{
+   
+    background-color: var(--light-2);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 90%, 0 100%); */
+    padding: 3rem;
+    padding-bottom: 5rem;
+}
+.contact-parent-div{
+    width: 1300px;
+    margin: 0 auto;
+}
+.contact-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+.contact-card{
+    text-align: center;
 }
