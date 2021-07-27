@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     /* width: 1500px;
     margin: 0 auto; */
+    margin: 0;
 }
 .flex{
     display: flex;
@@ -93,4 +94,36 @@ h1 span{
 }
 .heading p{
     color: var(--text-color-2);
+}
+.parent-div{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    /* display: flex; */
+    justify-content: center;
+    margin: 1rem 6rem;
+   
+}
+.single-div{
+    padding: 2rem 8rem;
+    text-align: center;
+}
+.single-div h1{
+    font-weight: 700;
+}
+.popularity{
+  margin: 8rem 0;
+}
+footer span{
+    color: cyan;
+}
+footer{
+    color: var(--text-color);
+    background-color: #0B0D17;
+    padding: 3.5rem 0;
+    
+    text-align: center;
+}
+footer p{
+    color: white;
+
 }
