@@ -80,3 +80,17 @@ h1 span{
 .card-text{
     padding: 1rem;
 }
+.heading{
+    text-align: center;
+    /* width: 1000px; */
+    /* border: 2px solid red; */
+    margin: 3rem 15rem;
+}
+.heading h2{
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+.heading p{
+    color: var(--text-color-2);
+}
