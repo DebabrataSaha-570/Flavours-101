@@ -160,7 +160,8 @@ nav{
     margin: 0 auto; */
 }
 nav .left{
-    margin-right: 15rem;
+    /* margin-right: 15rem; */
+    margin-right: 12%;
 }
 nav .left a{
     margin-left: 3rem;
