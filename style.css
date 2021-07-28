@@ -84,6 +84,7 @@ h1 span{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin: 5rem ;
+    padding: 0 5rem;
 }
 .card{
   /* text-align: center; */
@@ -194,14 +195,20 @@ form input{
     padding: 12px;
     margin-bottom: 20px;
 }
+form input:focus{
+    outline: none;
+}
 form textarea{
     padding: 12px;
+}
+form textarea:focus{
+    outline: none;
 }
 .contact{
    
     background-color: var(--light-2);
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 90%, 0 100%); */
-    padding: 3rem;
+    padding: 1rem;
     padding-bottom: 5rem;
 }
 .contact-parent-div{
@@ -212,11 +219,13 @@ form textarea{
 .contact-card-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
+    /* grid-gap: 3rem; */
 }
 .contact-card{
     text-align: center;
+    /* width: 30px ; */
 }
+
 .socials a{
     /* background-color: var(--dark); */
 
