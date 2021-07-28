@@ -88,7 +88,8 @@ h1 span{
 .card{
   /* text-align: center; */
   box-shadow: 10px 10px 40px gray;
-  width: 400px;
+  /* width: 400px; */
+  width: 90%;
   border-radius: 20px;
 
 }
@@ -203,7 +204,8 @@ form textarea{
     padding-bottom: 5rem;
 }
 .contact-parent-div{
-    width: 1300px;
+    /* width: 1300px; */
+    width: 85%;
     margin: 0 auto;
 }
 .contact-card-wrapper{
